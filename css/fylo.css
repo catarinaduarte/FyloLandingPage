@@ -1,0 +1,109 @@
+:root{
+    --dark-blue:hsl(243, 87%, 12%);
+    --desaturated-blue:hsl(238, 22%, 44%);
+    --bright-blue:hsl(224, 93%, 58%);
+    --Moderate-cyan:hsl(170, 45%, 43%);
+    --light-grayish-blue:hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+    --font-family-1:'Raleway', sans-serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    
+
+}
+a {
+    text-decoration: none;
+}
+
+body  {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.landing h1 {
+    color: var(--dark-blue);
+    font-family: var(--font-family-1)
+
+}
+
+.landing p {
+    color: var(--dark-blue);
+}
+input::placeholder {
+    color:var(--light-gray);
+    margin-right: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.productive {
+    background-color: var(--light-grayish-blue)
+}
+
+h2 {
+    color: var(--dark-blue);
+    font-family: var(--font-family-1)
+}
+
+.productive p {
+color:var(--dark-blue);
+}
+
+.link a {
+    color: var(--Moderate-cyan);
+    border-bottom: 1px solid var(--Moderate-cyan);
+    transition: 1s;
+}
+
+.link a:hover {
+    color: hsl(170deg 45% 43% / 60%);
+    border-color: hsl(170deg 45% 43% / 60%);
+}
+
+.box {
+   width: 65%;
+}
+.kyle img {
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+   font-size: 13px;
+    color: var(--dark-blue);
+    font-family: var(--font-family-1)
+}
+
+.box p {
+    font-size: 10px;
+}
+
+.early-access {
+    background-color: var(--desaturated-blue);
+}
+
+.footer {
+    background-color: var(--dark-blue);
+}
+
+.footer .row {
+    color: var(--light-grayish-blue);
+}
+
+.filter {
+  color: white;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
